@@ -1,0 +1,2 @@
+export const sectionCtaClassName =
+    'group inline-flex min-h-10 max-w-full shrink-0 items-center justify-center gap-2 rounded-lg border border-solid border-[#00A4B9] bg-[#EDF5F6] px-4 py-2 text-center text-xs leading-5 font-semibold text-[#008c9e] transition-colors hover:bg-[#00A4B9] hover:text-white focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#00A4B9] dark:border-[#2dd4bf] dark:bg-[#0d2e2e] dark:text-[#2dd4bf] dark:hover:bg-[#2dd4bf] dark:hover:text-[#0d2e2e] [&_svg]:size-4 [&_svg]:shrink-0';

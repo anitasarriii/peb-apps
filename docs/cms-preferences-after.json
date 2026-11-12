@@ -1,0 +1,25 @@
+{
+    "samples": [
+        {
+            "save_ms": 8.041,
+            "redirect_get_ms": 19.052
+        },
+        {
+            "save_ms": 5.076,
+            "redirect_get_ms": 10.781
+        },
+        {
+            "save_ms": 5.486,
+            "redirect_get_ms": 11.965
+        },
+        {
+            "save_ms": 4.914,
+            "redirect_get_ms": 11.839
+        },
+        {
+            "save_ms": 5.215,
+            "redirect_get_ms": 11.867
+        }
+    ],
+    "storage": "isolated fake local disk; atomic file replacement"
+}

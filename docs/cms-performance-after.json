@@ -1,0 +1,602 @@
+{
+    "Beranda Hero": {
+        "environment": "PHP feature HTTP kernel; SQLite :memory:; five warm samples; no upload",
+        "samples": [
+            {
+                "save_ms": 4.826,
+                "redirect_get_ms": 5.058,
+                "save_db_ms": 0.19,
+                "get_db_ms": 0.28,
+                "save_queries": 3,
+                "get_queries": 5,
+                "response_bytes": 1115
+            },
+            {
+                "save_ms": 2.883,
+                "redirect_get_ms": 5.167,
+                "save_db_ms": 0.11,
+                "get_db_ms": 0.19,
+                "save_queries": 3,
+                "get_queries": 5,
+                "response_bytes": 1331
+            },
+            {
+                "save_ms": 3.459,
+                "redirect_get_ms": 5.036,
+                "save_db_ms": 0.14,
+                "get_db_ms": 0.25,
+                "save_queries": 3,
+                "get_queries": 5,
+                "response_bytes": 1547
+            },
+            {
+                "save_ms": 3.008,
+                "redirect_get_ms": 5.475,
+                "save_db_ms": 0.12,
+                "get_db_ms": 0.22,
+                "save_queries": 3,
+                "get_queries": 5,
+                "response_bytes": 1763
+            },
+            {
+                "save_ms": 3.257,
+                "redirect_get_ms": 5.355,
+                "save_db_ms": 0.12,
+                "get_db_ms": 0.23,
+                "save_queries": 3,
+                "get_queries": 5,
+                "response_bytes": 1979
+            }
+        ]
+    },
+    "Beranda About": {
+        "environment": "PHP feature HTTP kernel; SQLite :memory:; five warm samples; no upload",
+        "samples": [
+            {
+                "save_ms": 3.04,
+                "redirect_get_ms": 3.457,
+                "save_db_ms": 0.13,
+                "get_db_ms": 0.12,
+                "save_queries": 2,
+                "get_queries": 3,
+                "response_bytes": 1169
+            },
+            {
+                "save_ms": 2.676,
+                "redirect_get_ms": 3.889,
+                "save_db_ms": 0.07,
+                "get_db_ms": 0.11,
+                "save_queries": 2,
+                "get_queries": 3,
+                "response_bytes": 1379
+            },
+            {
+                "save_ms": 4.046,
+                "redirect_get_ms": 4.492,
+                "save_db_ms": 0.19,
+                "get_db_ms": 0.16,
+                "save_queries": 2,
+                "get_queries": 3,
+                "response_bytes": 1589
+            },
+            {
+                "save_ms": 3.025,
+                "redirect_get_ms": 4.063,
+                "save_db_ms": 0.09,
+                "get_db_ms": 0.12,
+                "save_queries": 2,
+                "get_queries": 3,
+                "response_bytes": 1799
+            },
+            {
+                "save_ms": 5.672,
+                "redirect_get_ms": 7.475,
+                "save_db_ms": 0.12,
+                "get_db_ms": 0.2,
+                "save_queries": 2,
+                "get_queries": 3,
+                "response_bytes": 2009
+            }
+        ]
+    },
+    "Servis": {
+        "environment": "PHP feature HTTP kernel; SQLite :memory:; five warm samples; no upload",
+        "samples": [
+            {
+                "save_ms": 2.896,
+                "redirect_get_ms": 3.577,
+                "save_db_ms": 0.12,
+                "get_db_ms": 0.12,
+                "save_queries": 2,
+                "get_queries": 3,
+                "response_bytes": 1059
+            },
+            {
+                "save_ms": 2.525,
+                "redirect_get_ms": 4.125,
+                "save_db_ms": 0.07,
+                "get_db_ms": 0.12,
+                "save_queries": 2,
+                "get_queries": 3,
+                "response_bytes": 1289
+            },
+            {
+                "save_ms": 3.078,
+                "redirect_get_ms": 4.151,
+                "save_db_ms": 0.1,
+                "get_db_ms": 0.12,
+                "save_queries": 2,
+                "get_queries": 3,
+                "response_bytes": 1519
+            },
+            {
+                "save_ms": 2.883,
+                "redirect_get_ms": 4.352,
+                "save_db_ms": 0.09,
+                "get_db_ms": 0.12,
+                "save_queries": 2,
+                "get_queries": 3,
+                "response_bytes": 1749
+            },
+            {
+                "save_ms": 3.652,
+                "redirect_get_ms": 5.186,
+                "save_db_ms": 0.22,
+                "get_db_ms": 0.18,
+                "save_queries": 2,
+                "get_queries": 3,
+                "response_bytes": 1979
+            }
+        ]
+    },
+    "Kebijakan": {
+        "environment": "PHP feature HTTP kernel; SQLite :memory:; five warm samples; no upload",
+        "samples": [
+            {
+                "save_ms": 3.75,
+                "redirect_get_ms": 3.769,
+                "save_db_ms": 0.12,
+                "get_db_ms": 0.12,
+                "save_queries": 2,
+                "get_queries": 3,
+                "response_bytes": 1088
+            },
+            {
+                "save_ms": 3.31,
+                "redirect_get_ms": 3.773,
+                "save_db_ms": 0.13,
+                "get_db_ms": 0.13,
+                "save_queries": 2,
+                "get_queries": 3,
+                "response_bytes": 1309
+            },
+            {
+                "save_ms": 3.528,
+                "redirect_get_ms": 4.389,
+                "save_db_ms": 0.1,
+                "get_db_ms": 0.15,
+                "save_queries": 2,
+                "get_queries": 3,
+                "response_bytes": 1530
+            },
+            {
+                "save_ms": 4.251,
+                "redirect_get_ms": 5.541,
+                "save_db_ms": 0.13,
+                "get_db_ms": 0.15,
+                "save_queries": 2,
+                "get_queries": 3,
+                "response_bytes": 1751
+            },
+            {
+                "save_ms": 3.231,
+                "redirect_get_ms": 4.662,
+                "save_db_ms": 0.09,
+                "get_db_ms": 0.14,
+                "save_queries": 2,
+                "get_queries": 3,
+                "response_bytes": 1972
+            }
+        ]
+    },
+    "SEO Kebijakan": {
+        "environment": "PHP feature HTTP kernel; SQLite :memory:; five warm samples; no upload",
+        "samples": [
+            {
+                "save_ms": 5.641,
+                "redirect_get_ms": 4.027,
+                "save_db_ms": 0.18,
+                "get_db_ms": 0.17,
+                "save_queries": 2,
+                "get_queries": 3,
+                "response_bytes": 785
+            },
+            {
+                "save_ms": 2.635,
+                "redirect_get_ms": 3.733,
+                "save_db_ms": 0.09,
+                "get_db_ms": 0.12,
+                "save_queries": 2,
+                "get_queries": 3,
+                "response_bytes": 1003
+            },
+            {
+                "save_ms": 2.718,
+                "redirect_get_ms": 4.451,
+                "save_db_ms": 0.1,
+                "get_db_ms": 0.14,
+                "save_queries": 2,
+                "get_queries": 3,
+                "response_bytes": 1221
+            },
+            {
+                "save_ms": 3.009,
+                "redirect_get_ms": 4.151,
+                "save_db_ms": 0.14,
+                "get_db_ms": 0.13,
+                "save_queries": 2,
+                "get_queries": 3,
+                "response_bytes": 1439
+            },
+            {
+                "save_ms": 4.712,
+                "redirect_get_ms": 5.899,
+                "save_db_ms": 0.2,
+                "get_db_ms": 0.2,
+                "save_queries": 2,
+                "get_queries": 3,
+                "response_bytes": 1657
+            }
+        ]
+    },
+    "Galeri": {
+        "environment": "PHP feature HTTP kernel; SQLite :memory:; five warm samples; no upload",
+        "samples": [
+            {
+                "save_ms": 3.342,
+                "redirect_get_ms": 4.541,
+                "save_db_ms": 0.14,
+                "get_db_ms": 0.16,
+                "save_queries": 2,
+                "get_queries": 3,
+                "response_bytes": 1087
+            },
+            {
+                "save_ms": 2.5,
+                "redirect_get_ms": 3.678,
+                "save_db_ms": 0.09,
+                "get_db_ms": 0.11,
+                "save_queries": 2,
+                "get_queries": 3,
+                "response_bytes": 1317
+            },
+            {
+                "save_ms": 2.757,
+                "redirect_get_ms": 4.57,
+                "save_db_ms": 0.11,
+                "get_db_ms": 0.17,
+                "save_queries": 2,
+                "get_queries": 3,
+                "response_bytes": 1547
+            },
+            {
+                "save_ms": 2.206,
+                "redirect_get_ms": 3.97,
+                "save_db_ms": 0.06,
+                "get_db_ms": 0.13,
+                "save_queries": 2,
+                "get_queries": 3,
+                "response_bytes": 1777
+            },
+            {
+                "save_ms": 2.096,
+                "redirect_get_ms": 4.257,
+                "save_db_ms": 0.06,
+                "get_db_ms": 0.11,
+                "save_queries": 2,
+                "get_queries": 3,
+                "response_bytes": 2007
+            }
+        ]
+    },
+    "Laporan Keuangan": {
+        "environment": "PHP feature HTTP kernel; SQLite :memory:; five warm samples; no upload",
+        "samples": [
+            {
+                "save_ms": 3.047,
+                "redirect_get_ms": 3.95,
+                "save_db_ms": 0.17,
+                "get_db_ms": 0.15,
+                "save_queries": 2,
+                "get_queries": 3,
+                "response_bytes": 1103
+            },
+            {
+                "save_ms": 2.509,
+                "redirect_get_ms": 5.437,
+                "save_db_ms": 0.08,
+                "get_db_ms": 0.14,
+                "save_queries": 2,
+                "get_queries": 3,
+                "response_bytes": 1319
+            },
+            {
+                "save_ms": 3.654,
+                "redirect_get_ms": 5.593,
+                "save_db_ms": 0.16,
+                "get_db_ms": 0.18,
+                "save_queries": 2,
+                "get_queries": 3,
+                "response_bytes": 1535
+            },
+            {
+                "save_ms": 2.885,
+                "redirect_get_ms": 4.336,
+                "save_db_ms": 0.12,
+                "get_db_ms": 0.12,
+                "save_queries": 2,
+                "get_queries": 3,
+                "response_bytes": 1751
+            },
+            {
+                "save_ms": 2.294,
+                "redirect_get_ms": 5.165,
+                "save_db_ms": 0.07,
+                "get_db_ms": 0.14,
+                "save_queries": 2,
+                "get_queries": 3,
+                "response_bytes": 1967
+            }
+        ]
+    },
+    "Laporan Tahunan": {
+        "environment": "PHP feature HTTP kernel; SQLite :memory:; five warm samples; no upload",
+        "samples": [
+            {
+                "save_ms": 2.716,
+                "redirect_get_ms": 3.688,
+                "save_db_ms": 0.12,
+                "get_db_ms": 0.13,
+                "save_queries": 2,
+                "get_queries": 3,
+                "response_bytes": 1128
+            },
+            {
+                "save_ms": 2.779,
+                "redirect_get_ms": 4.471,
+                "save_db_ms": 0.11,
+                "get_db_ms": 0.17,
+                "save_queries": 2,
+                "get_queries": 3,
+                "response_bytes": 1335
+            },
+            {
+                "save_ms": 2.993,
+                "redirect_get_ms": 3.997,
+                "save_db_ms": 0.17,
+                "get_db_ms": 0.12,
+                "save_queries": 2,
+                "get_queries": 3,
+                "response_bytes": 1542
+            },
+            {
+                "save_ms": 3.868,
+                "redirect_get_ms": 5.602,
+                "save_db_ms": 0.1,
+                "get_db_ms": 0.16,
+                "save_queries": 2,
+                "get_queries": 3,
+                "response_bytes": 1749
+            },
+            {
+                "save_ms": 2.964,
+                "redirect_get_ms": 6.513,
+                "save_db_ms": 0.11,
+                "get_db_ms": 0.21,
+                "save_queries": 2,
+                "get_queries": 3,
+                "response_bytes": 1956
+            }
+        ]
+    },
+    "Pengadaan": {
+        "environment": "PHP feature HTTP kernel; SQLite :memory:; five warm samples; no upload",
+        "samples": [
+            {
+                "save_ms": 4.202,
+                "redirect_get_ms": 6.21,
+                "save_db_ms": 0.16,
+                "get_db_ms": 0.17,
+                "save_queries": 3,
+                "get_queries": 3,
+                "response_bytes": 1223
+            },
+            {
+                "save_ms": 3.22,
+                "redirect_get_ms": 7.514,
+                "save_db_ms": 0.14,
+                "get_db_ms": 0.22,
+                "save_queries": 3,
+                "get_queries": 3,
+                "response_bytes": 1449
+            },
+            {
+                "save_ms": 2.999,
+                "redirect_get_ms": 4.116,
+                "save_db_ms": 0.15,
+                "get_db_ms": 0.12,
+                "save_queries": 3,
+                "get_queries": 3,
+                "response_bytes": 1675
+            },
+            {
+                "save_ms": 2.92,
+                "redirect_get_ms": 4.704,
+                "save_db_ms": 0.12,
+                "get_db_ms": 0.12,
+                "save_queries": 3,
+                "get_queries": 3,
+                "response_bytes": 1901
+            },
+            {
+                "save_ms": 2.799,
+                "redirect_get_ms": 4.807,
+                "save_db_ms": 0.13,
+                "get_db_ms": 0.12,
+                "save_queries": 3,
+                "get_queries": 3,
+                "response_bytes": 2127
+            }
+        ]
+    },
+    "Portofolio": {
+        "environment": "PHP feature HTTP kernel; SQLite :memory:; five warm samples; no upload",
+        "samples": [
+            {
+                "save_ms": 3.439,
+                "redirect_get_ms": 5.359,
+                "save_db_ms": 0.12,
+                "get_db_ms": 0.15,
+                "save_queries": 2,
+                "get_queries": 3,
+                "response_bytes": 1122
+            },
+            {
+                "save_ms": 3.17,
+                "redirect_get_ms": 4.665,
+                "save_db_ms": 0.12,
+                "get_db_ms": 0.16,
+                "save_queries": 2,
+                "get_queries": 3,
+                "response_bytes": 1333
+            },
+            {
+                "save_ms": 2.445,
+                "redirect_get_ms": 5.714,
+                "save_db_ms": 0.08,
+                "get_db_ms": 0.24,
+                "save_queries": 2,
+                "get_queries": 3,
+                "response_bytes": 1544
+            },
+            {
+                "save_ms": 2.717,
+                "redirect_get_ms": 4.328,
+                "save_db_ms": 0.11,
+                "get_db_ms": 0.12,
+                "save_queries": 2,
+                "get_queries": 3,
+                "response_bytes": 1755
+            },
+            {
+                "save_ms": 2.296,
+                "redirect_get_ms": 6.058,
+                "save_db_ms": 0.09,
+                "get_db_ms": 0.12,
+                "save_queries": 2,
+                "get_queries": 3,
+                "response_bytes": 1966
+            }
+        ]
+    },
+    "CTA": {
+        "environment": "PHP feature HTTP kernel; SQLite :memory:; five warm samples; no upload",
+        "samples": [
+            {
+                "save_ms": 3.544,
+                "redirect_get_ms": 3.74,
+                "save_db_ms": 0.14,
+                "get_db_ms": 0.15,
+                "save_queries": 2,
+                "get_queries": 3,
+                "response_bytes": 1017
+            },
+            {
+                "save_ms": 2.558,
+                "redirect_get_ms": 3.71,
+                "save_db_ms": 0.11,
+                "get_db_ms": 0.14,
+                "save_queries": 2,
+                "get_queries": 3,
+                "response_bytes": 1237
+            },
+            {
+                "save_ms": 2.983,
+                "redirect_get_ms": 5.948,
+                "save_db_ms": 0.09,
+                "get_db_ms": 0.23,
+                "save_queries": 2,
+                "get_queries": 3,
+                "response_bytes": 1457
+            },
+            {
+                "save_ms": 4.072,
+                "redirect_get_ms": 5.89,
+                "save_db_ms": 0.13,
+                "get_db_ms": 0.16,
+                "save_queries": 2,
+                "get_queries": 3,
+                "response_bytes": 1677
+            },
+            {
+                "save_ms": 4.441,
+                "redirect_get_ms": 4.647,
+                "save_db_ms": 0.13,
+                "get_db_ms": 0.17,
+                "save_queries": 2,
+                "get_queries": 3,
+                "response_bytes": 1897
+            }
+        ]
+    },
+    "Footer": {
+        "environment": "PHP feature HTTP kernel; SQLite :memory:; five warm samples; no upload",
+        "samples": [
+            {
+                "save_ms": 3.681,
+                "redirect_get_ms": 3.688,
+                "save_db_ms": 0.14,
+                "get_db_ms": 0.13,
+                "save_queries": 2,
+                "get_queries": 3,
+                "response_bytes": 1321
+            },
+            {
+                "save_ms": 5.587,
+                "redirect_get_ms": 5.607,
+                "save_db_ms": 0.14,
+                "get_db_ms": 0.21,
+                "save_queries": 2,
+                "get_queries": 3,
+                "response_bytes": 1538
+            },
+            {
+                "save_ms": 8.573,
+                "redirect_get_ms": 4.577,
+                "save_db_ms": 0.24,
+                "get_db_ms": 0.18,
+                "save_queries": 2,
+                "get_queries": 3,
+                "response_bytes": 1755
+            },
+            {
+                "save_ms": 3.545,
+                "redirect_get_ms": 4.191,
+                "save_db_ms": 0.12,
+                "get_db_ms": 0.13,
+                "save_queries": 2,
+                "get_queries": 3,
+                "response_bytes": 1972
+            },
+            {
+                "save_ms": 3.753,
+                "redirect_get_ms": 5.872,
+                "save_db_ms": 0.11,
+                "get_db_ms": 0.3,
+                "save_queries": 2,
+                "get_queries": 3,
+                "response_bytes": 2189
+            }
+        ]
+    }
+}

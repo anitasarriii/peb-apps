@@ -1,0 +1,39 @@
+import { queryParams, type RouteQueryOptions, type RouteDefinition } from './../../../../wayfinder'
+/**
+* @see \App\Http\Controllers\Admin\PanelAdminPengadaanController::update
+ * @see app/Http/Controllers/Admin/PanelAdminPengadaanController.php:22
+ * @route '/panel-admin/pengadaan/hero-section'
+ */
+export const update = (options?: RouteQueryOptions): RouteDefinition<'post'> => ({
+    url: update.url(options),
+    method: 'post',
+})
+
+update.definition = {
+    methods: ["post"],
+    url: '/panel-admin/pengadaan/hero-section',
+} satisfies RouteDefinition<["post"]>
+
+/**
+* @see \App\Http\Controllers\Admin\PanelAdminPengadaanController::update
+ * @see app/Http/Controllers/Admin/PanelAdminPengadaanController.php:22
+ * @route '/panel-admin/pengadaan/hero-section'
+ */
+update.url = (options?: RouteQueryOptions) => {
+    return update.definition.url + queryParams(options)
+}
+
+/**
+* @see \App\Http\Controllers\Admin\PanelAdminPengadaanController::update
+ * @see app/Http/Controllers/Admin/PanelAdminPengadaanController.php:22
+ * @route '/panel-admin/pengadaan/hero-section'
+ */
+update.post = (options?: RouteQueryOptions): RouteDefinition<'post'> => ({
+    url: update.url(options),
+    method: 'post',
+})
+const heroSection = {
+    update: Object.assign(update, update),
+}
+
+export default heroSection

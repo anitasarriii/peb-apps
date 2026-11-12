@@ -1,0 +1,82 @@
+{
+    "users": {
+        "environment": "isolated SQLite; master baseline after shared middleware optimization",
+        "samples": [
+            {
+                "save_ms": 59.709,
+                "redirect_get_ms": 14.352,
+                "save_queries": 5,
+                "get_queries": 5,
+                "get_db_ms": 0.29
+            },
+            {
+                "save_ms": 4.65,
+                "redirect_get_ms": 5.342,
+                "save_queries": 4,
+                "get_queries": 5,
+                "get_db_ms": 0.29
+            },
+            {
+                "save_ms": 2.968,
+                "redirect_get_ms": 4.98,
+                "save_queries": 4,
+                "get_queries": 5,
+                "get_db_ms": 0.28
+            },
+            {
+                "save_ms": 4.493,
+                "redirect_get_ms": 4.416,
+                "save_queries": 4,
+                "get_queries": 5,
+                "get_db_ms": 0.24
+            },
+            {
+                "save_ms": 3.071,
+                "redirect_get_ms": 4.812,
+                "save_queries": 4,
+                "get_queries": 5,
+                "get_db_ms": 0.26
+            }
+        ]
+    },
+    "roles": {
+        "environment": "isolated SQLite; master baseline after shared middleware optimization",
+        "samples": [
+            {
+                "save_ms": 5.983,
+                "redirect_get_ms": 5.659,
+                "save_queries": 4,
+                "get_queries": 4,
+                "get_db_ms": 0.23
+            },
+            {
+                "save_ms": 4.066,
+                "redirect_get_ms": 11.955,
+                "save_queries": 3,
+                "get_queries": 4,
+                "get_db_ms": 1.55
+            },
+            {
+                "save_ms": 6.332,
+                "redirect_get_ms": 4.753,
+                "save_queries": 3,
+                "get_queries": 4,
+                "get_db_ms": 0.26
+            },
+            {
+                "save_ms": 4.275,
+                "redirect_get_ms": 4.795,
+                "save_queries": 3,
+                "get_queries": 4,
+                "get_db_ms": 0.26
+            },
+            {
+                "save_ms": 4.203,
+                "redirect_get_ms": 5.266,
+                "save_queries": 3,
+                "get_queries": 4,
+                "get_db_ms": 0.29
+            }
+        ]
+    }
+}

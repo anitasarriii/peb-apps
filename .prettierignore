@@ -1,0 +1,3 @@
+resources/js/components/ui/*
+resources/js_backup_*/**
+resources/views/mail/*

@@ -1,0 +1,29 @@
+=================================================================
+PANDUAN INSTALASI & IMPORT DATABASE - PROJECT PEB-APPS
+=================================================================
+
+1. EKSTRAK FOLDER
+   Ekstrak peb-apps.zip ke direktori server (misalnya: C:\xampp\htdocs\peb-apps)
+
+2. IMPORT DATABASE MYSQL / MARIADB
+   - Buat database baru di phpMyAdmin / MySQL bernama: peb_compro_local
+   - Import file database SQL yang sudah tersedia di dalam folder ini:
+     -> peb_compro_local.sql (atau database/peb_compro_local.sql)
+
+3. KONFIGURASI .ENV
+   Sesuaikan file .env jika username/password MySQL atau URL domain berbeda:
+   - APP_URL=http://127.0.0.1:8000 (atau domain production Anda)
+   - DB_DATABASE=peb_compro_local
+   - DB_USERNAME=root
+   - DB_PASSWORD=
+
+4. AKTIFKAN SYMLINK STORAGE & JALANKAN
+   Buka terminal di dalam folder peb-apps lalu jalankan:
+   - php artisan storage:link
+   - php artisan optimize:clear
+   - php artisan serve  (atau arahkan DocumentRoot Apache/Nginx ke folder public/)
+
+   Catatan: Seluruh aset frontend (public/build/) sudah ter-compile siap pakai,
+   dan dependensi PHP (vendor/) sudah disertakan. Jika ingin mengembangkan ulang
+   tampilan React, cukup jalankan: npm install && npm run build
+=================================================================
